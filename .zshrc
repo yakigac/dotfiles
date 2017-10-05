@@ -1,5 +1,11 @@
-# 少し凝った zshrc
-# License : MIT
+# yakigac zshrc
+# Copyright 2017, Ryohei Kuroki
+# Released under the MIT License.
+# https://opensource.org/licenses/mit-license.php
+
+# Includes 少し凝った zshrc
+# Copyright 2017, Hideaki Miyake
+# Released under the MIT License.
 # http://mollifier.mit-license.org/
 
 ########################################
