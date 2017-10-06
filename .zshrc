@@ -1,7 +1,7 @@
 # yakigac zshrc
 # Copyright 2017, Ryohei Kuroki
-# Released under the MIT License.
-# https://opensource.org/licenses/mit-license.php
+# This source code is licensed under the MIT license found in the
+# LICENSE file in the root directory of this source tree.
 
 # Includes 少し凝った zshrc
 # Copyright 2017, Hideaki Miyake
