@@ -1,2 +1,2 @@
 # !/bin/sh
-ln -sf ~/tfiles/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
