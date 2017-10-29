@@ -11,7 +11,7 @@
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
-
+export HASHED_PASSWORD=$(cat ~/.ssh/hashed_password)
 
 # 色を使用出来るようにする
 autoload -Uz colors
