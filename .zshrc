@@ -12,7 +12,7 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
 export HASHED_PASSWORD=$(cat ~/.ssh/hashed_password)
-
+export HYPERDASH_API_KEY=$(cat ~/.ssh/hyperdash_api_key)
 # 色を使用出来るようにする
 autoload -Uz colors
 colors
