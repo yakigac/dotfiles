@@ -1,0 +1,8 @@
+[user]
+	name = Ryohei Kuroki
+	email = ryohei.kuroki@gmail.com
+[core]
+	pager = LESSCHARSET=utf-8 less
+	editor = vim -c \"set fenc=utf-8\"
+[push]
+	default = simple
