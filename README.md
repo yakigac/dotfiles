@@ -1,2 +1,2 @@
 # dotfiles
-These files are [MIT licensed](./LICENSE.md).
+These files are [MIT licensed](./LICENSE).
