@@ -4,5 +4,6 @@
 [core]
 	pager = LESSCHARSET=utf-8 less
 	editor = vi -c \"set fenc=utf-8\"
+	excludesfile = ~/.gitignore_global
 [push]
 	default = simple
