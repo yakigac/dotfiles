@@ -4,6 +4,7 @@
 
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 
 # For prezto, you need to clone submodule recursively
 ln -s ~/dotfiles/prezto/ ~/.zprezto
