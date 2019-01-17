@@ -127,3 +127,5 @@ esac
 
 export PATH=$PATH:/Users/ryohei/Library/Android/sdk/platform-tools
 export PATH=$PATH:~/Library/Python/3.6/bin
+
+alias dc='docker-compose'
