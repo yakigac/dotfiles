@@ -1,6 +1,3 @@
-[user]
-	name = Ryohei Kuroki
-	email = ryohei.kuroki@gmail.com
 [core]
 	pager = LESSCHARSET=utf-8 less
 	editor = vi -c \"set fenc=utf-8\"
