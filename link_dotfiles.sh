@@ -2,9 +2,25 @@
 # Replace .vimrc, .gitconfig and config files for zsh
 # You should backup these files before
 
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
+DOTFILES=$(cd $(dirname $0); pwd)
+
+now=$(date '+%Y%m%d%H%M%S')
+
+cd ~/
+
+function backup_and_link_file() {
+　# すでにファイルが存在する場合はバックアップを作る
+  if [[ -e $1 ]]; then
+    # .zshrc_20180314010755 のような名前でバックアップをとる
+    mv $1 $1_$now
+  fi
+  # シンボリックリンクを張る
+  ln -fs $DOTFILES/$1
+}
+
+backup_and_link_file '.vimrc'
+backup_and_link_file '.gitconfig'
+backup_and_link_file '.tmux.conf'
 
 # For prezto, you need to clone submodule recursively
 ln -s ~/dotfiles/prezto/ ~/.zprezto
